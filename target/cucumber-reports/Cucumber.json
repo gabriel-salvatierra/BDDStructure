@@ -1,0 +1,121 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "example of background scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7017463672,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the browser opens",
+            "match": {
+              "location": "LoginSD.the_browser_opens()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40105,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter URL\u0027s test web",
+            "match": {
+              "location": "LoginSD.i_enter_URL_s_test_web()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16639,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Page shows and credentials are asked",
+            "match": {
+              "location": "LoginSD.page_shows_and_credentials_are_asked()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Happy path when everything works ok",
+        "description": "",
+        "id": "login;happy-path-when-everything-works-ok",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14506,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Im at login page",
+            "match": {
+              "location": "LoginSD.im_at_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14079,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Valid credentials are entered",
+            "match": {
+              "location": "LoginSD.valid_credentials_are_entered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13652,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The welcome page shows successfully",
+            "match": {
+              "location": "LoginSD.the_welcome_page_shows_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFeature"
+          },
+          {
+            "name": "@Happy"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  This feature will test login related scenarios",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "feature/Login.feature",
+    "tags": [
+      {
+        "name": "@LoginFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
